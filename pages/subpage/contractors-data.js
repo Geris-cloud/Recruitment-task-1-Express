@@ -10,7 +10,7 @@ export default function ContractorsData({ hamb }) {
 
   const [contractorsList, setContractorsList] = useState([]);
 
-  const [nip, setNip] = useState('');//ac
+  const [nip, setNip] = useState('');
   const [regon, setRegon] = useState('');
   const [name, setName] = useState('');
   const [vat, setVat] = useState('Nie');
